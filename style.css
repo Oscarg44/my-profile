@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Container centré ── */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+/* ── Carte blanche générique ── */
+.card-white {
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 40px;
+  margin-bottom: 20px;
+}
+
+.card-white:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* ── Carte header ── */
+.card-header {
+  text-align: center;
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+.card-header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6c5ce7;
+  margin-bottom: 15px;
+}
+
+.card-header h1 {
+  font-size: 1.8rem;
+  margin: 0 0 10px;
+}
+
+.card-header p {
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 20px;
+}
+
+.card-header a {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: #6c5ce7;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.card-header a:hover {
+  background-color: #5849cc;
+}
+
+/* ── Cartes sections ── */
+.card-white h2 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin: 0 0 10px;
+  border-left: 4px solid #6c5ce7;
+  padding-left: 12px;
+}
+
+.card-white p {
+  color: #555555;
+  line-height: 1.7;
+  margin: 0;
+}
+
+/* ── Carte footer ── */
+.card-footer {
+  padding: 20px 40px;
+}
+
+.card-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.card-footer ul li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #333333;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+.card-footer ul li a:hover {
+  background-color: #6c5ce7;
+  color: #ffffff;
+  border-color: #6c5ce7;
+}
